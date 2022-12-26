@@ -1,0 +1,144 @@
+{ margin: 0;
+  padding:0;
+}
+
+header{
+      
+       height: 100vh;
+       background-size: cover;
+       background-position: center;
+       backgroud-reapeat: no repeat;
+       animation:slider 40s infinite linear;
+       
+       
+}
+@keyframes slider{
+0%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(../nick-perez-duvq92-VCZ4-unsplash.jpg); 
+bakkground-size: cover;
+
+}
+25%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../chor-tsang-07mSKrzKiRw-unsplash.jpg);}
+
+50%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../yousef-espanioly-DA_tplYgTow-unsplash.jpg);}
+75%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../ashim-d-silva-WeYamle9fDM-unsplash.jpg);}
+100%{background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.)), url(../secret-travel-guide-328MrR1aZIk-unsplash.jpg);}
+
+}
+
+ul {
+   float: right;
+   list-style-type: none;
+   margin-top: 25px;
+   margin-right: 100px;
+   color: #fff; 
+}   
+
+ul li{
+     display:inline-block;
+}
+  
+ul li a{
+       text-decoration: none;
+       colour:#fff;
+       padding: 5px 20px;
+       border: 3px solid #fff ;
+       transition:0.6s ease;
+}
+
+.title h1{
+       color: #fff;
+       text-shadow:2px 2px 5px #000000;
+       font-size: 30px;
+       margin-top: 8px;
+       
+}
+
+ul li a:hover{
+     background-color:#fff;
+     color:#000;
+}
+
+.active a{
+       background-color: #fff;
+       color: #000;
+}
+
+
+.title h2{
+     color:#fff;
+     text-shadow:2px 2px 5px #000000;
+     position:centre;
+     font-size: 35px;
+     margin-top: 250px;
+     margin-left: 480px;
+    
+}
+
+
+.title {
+     position:absolute;
+      top:1%;
+      left: 3%;
+}
+
+
+.btn{
+    border: 3px solid #fff;
+    padding: 9px 25px;
+   
+    color:#fff;
+    text-decoration;
+    transition: 0.6s ease;
+    position:flex;
+    margin-top: 30px;
+    margin-left:  70px;
+  
+}
+.btn:hover{
+      
+     background-color:#000;
+     color:#fff;
+}
+h3{
+   position:centre;
+   text-shadow:2px 2px 5px #000000;
+   font-size:25px;
+   color:#fff;
+   margin-top: 5px;
+   margin-left: 650px;
+}
+h4{
+   position:centre;
+   text-shadow:2px 2px 5px #000000;
+   font size:20px;
+   color:#fff;
+   margin-top: 2px;
+     margin-left: 580px;
+}
+h5{
+   position:centre;
+   text-shadow:2px 2px 5px #000000;
+   font-size:17px;
+   color:#fff;
+   margin-top: 1px;
+     margin-left: 600px;
+}
+.img-shivam1 {
+   border-radius: 30%;
+}
+.active1 a{
+      
+       color: #fff;
+}
+.active2 a{
+       
+       color: #fff;
+}
+
+.active3 a{
+       
+       color: #fff;
+}
+
+
+
